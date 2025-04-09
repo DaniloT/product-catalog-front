@@ -13,6 +13,15 @@ Usual approach would be to use JWT, and store the token either in local or sessi
 Since this is basic authentication, the auth header is being stored in a cookie, but without it being http only
 and secure for simplicity while showing usual ways to use it.
 
+## How to run
+
+In the project directory, run:
+```
+yarn install
+```
+
+When it is done, you can run with the scripts below.
+
 ## Available Scripts
 
 In the project directory, you can run:
