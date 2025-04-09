@@ -74,6 +74,7 @@ const LoginPage: React.FC = () => {
                 <Input
                     type="text"
                     value={username}
+                    maxLength={30}
                     onChange={(e: { target: { value: React.SetStateAction<string>; }; }) => setUsername(e.target.value)}
                     placeholder="Username"
                     aria-invalid={!!errors.username}
@@ -84,6 +85,7 @@ const LoginPage: React.FC = () => {
                     <StyledPasswordInput
                         type={showPassword ? 'text' : 'password'}
                         value={password}
+                        maxLength={50}
                         onChange={(e: { target: { value: React.SetStateAction<string>; }; }) => setPassword(e.target.value)}
                         placeholder="Password"
                         aria-invalid={!!errors.password}
