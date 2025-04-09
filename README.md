@@ -9,6 +9,12 @@ Password: password
 
 This user and password will be sent on the authorization header of every api call, encoded.
 
+By default, the app will communicate with a backend at localhost:8080. If you need to chenge this,
+edit the .env file on the project root and change this line to what is your server address:
+```
+REACT_APP_API_URL=http://localhost:8080/api/v1
+```
+
 Usual approach would be to use JWT, and store the token either in local or session storage with a cookie.
 Since this is basic authentication, the auth header is being stored in a cookie, but without it being http only
 and secure for simplicity while showing usual ways to use it.
