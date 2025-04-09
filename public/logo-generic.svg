@@ -1,0 +1,9 @@
+<!-- public/logo-generic.svg -->
+<svg width="160" height="48" viewBox="0 0 160 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="160" height="48" rx="8" fill="white"/>
+    <path d="M16 24C16 18.4772 20.4772 14 26 14C31.5228 14 36 18.4772 36 24C36 29.5228 31.5228 34 26 34C20.4772 34 16 29.5228 16 24Z" fill="#6A1B9A"/>
+    <path d="M38 14L44 34H48L54 14H50L46 30L42 14H38Z" fill="#6A1B9A"/>
+    <text x="60" y="30" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+        CorpSuite
+    </text>
+</svg>
